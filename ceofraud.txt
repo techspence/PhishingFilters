@@ -1,0 +1,18 @@
+# Domain name & email address: eureka.com
+
+Letter Substitution
+@e(?:[^u]reka|u[^r]eka|ur[^e]ka|ure[^k]a|urek[^a]|eurk[^a])\.com
+
+Character Substitution
+@e(?!ureka\.com).?u.?r.?e.?k.?a\.com
+
+
+# CEO Name: Jack Carter
+
+character substitution
+[jJ][aA][cC][kK]\s[cC][aA][rR][tT][eE][rR]
+[jJ][aA][cC][kK]\s[aA-zZ]\s[cC][aA][rR][tT][eE][rR]
+[jJ][aA][cC][kK]\s[aA-zZ][.]\s[cC][aA][rR][tT][eE][rR]
+
+# or all 3 from above combined into one statement
+([jJ][aA][cC][kK]\s[cC][aA][rR][tT][eE][rR]|[jJ][aA][cC][kK]\s[aA-zZ]\s[cC][aA][rR][tT][eE][rR]|[jJ][aA][cC][kK]\s[aA-zZ][.]\s[cC][aA][rR][tT][eE][rR])
